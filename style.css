@@ -1,0 +1,53 @@
+
+body {
+    font-size: medium;
+    cursor: help;
+}
+
+.title {
+    text-align: center;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+.subheading {
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+}
+
+.description {
+    padding: 0 400px;
+}
+
+.header {
+    font-size: large;
+    padding: 0 400px;
+    font-style: bold;
+}
+
+.blog {
+    font-size: large;
+    padding: 0 400px;
+    font-style: bold;
+    cursor: crosshair;
+}
+
+ul {
+    padding: 0 400px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+
+.perception {
+    display: flex; 
+    justify-content: center;
+}
