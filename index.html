@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/xp.css@/dist/98.css">
-    <link rel="icon" type="image/png" href="remote.gif"/>
-    <title>
-      virtual
-    </title>
-  </head>
-  <body>
-    <h1 class="title">~virtual~</h1>
-    <h2 class="subheading">contact me via <a href="https://twitter.com/virtualjpeg">twitter</a>, <a href="https://github.com/virtualjpeg">github</a> or virtualjpeg.eth</h2>
-    <p class="description"> software engineer focussing on ethereum and web3 development</p>
+<head>
+	<link
+  rel="stylesheet"
+  href="https://unpkg.com/xp.css"
+>
+</head>
+<body>
 
-    <h2 class="header">skills</h2>
-    <ul>
-      <li>very proficient in <code>solidity</code></li>
-      <li>[fairly] proficient in <code>rust</code></li>
-      <li>learning javascript / typescript</li>
-      <li>deep knoweldge of protocol design and defi</li>
-    </ul>
-    <h2 class="header">projects + experience + interests</h2>
-    <ul>
-      <li>solidity engineer at <code><a href="https://alongside.finance">alongside</a></code></li>
-      <li>currently building <code><a href="https://twitter.com/withshard">shard</a></code>, a virtual world protocol</li>
-      <li>developed core smart contracts for <code><a href="https://twitter.com/kodexapp">kodex</a></code>, an ENS marketplace protocol </li>
-      <li>actively interested and building upon MEV and Flashbots</li>
-    </ul>
-    <h2 class="header"><code>iNfOrMaTiOn</code></h2>
-    <ul>
-      <li>location: everywhere</li>
-      <img src="remote.gif">
-      <li>i am ᶜᵒⁿˢᶜⁱᵒᵘˢ currently [or am i]</li>
-      <li>established 3011</li>
-      <li>eats snacks at 3:30 PM</li>
-    </ul>
-    <br>
-    <br>
-    <br>
-    <h2 class="blog"><a href="world.html">ę̶̑͗͂͆͑n̸̢̫̱̆̎̄̂͋͑́͐̃͜t̵̳̪̑̂̈́e̷̡͍̮̝͌̒ŗ̴̙͍̆͐̇̓̄̀̌̈͝ ̸̧̹͔̗̒͝m̶͈͈̍̒̈́̑̈́͂ŷ̸̨̞̣̳̮̮̩̹͖͓̀̒̐͛̍ ̶̨̺̼̠͚̪̦̭̎̎̓̑͊̉̍̃w̸̗̹̹͉̒͂̾̕o̸͎̮̻͗̓̒͋r̸̛̙͍̘͕̖̖̞̿̐̃̈̔̉̀͝͝l̷̡̞̪̂̊̓́͌͝͝d̴̡̛̳̘͔̱͉̝̰͋̓̀̋́̀ </a></h2>
-
-    <br>
-    <br>
-    <br>
-    <p>© virtual 2021 to forever. site is still a lil unfinished</p>
-    <button onclick="random_bg_color()" class="perception">change perception</button>
-	  
+<div class="window" style="width: 300px">
+  <div class="title-bar">
+    <div class="title-bar-text">Virtual</div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <ul class="tree-view">
+  <li>software engineer focussing on ethereum and web3 development</li>
+  <br>
+  <li>contact me via <a href="https://twitter.com/virtualjpeg">twitter</a>, <a href="https://github.com/virtualjpeg">github</a> or virtualjpeg.eth</li>
+  <br>
+    <details close>
+      <summary>e̶͙̓ǹ̵̬t̶̠͠ḙ̶̔r̴̗̈́ ̴̠͗m̵̞̉y̸͈̎ ̷̤͝ẃ̸͚ö̸̯r̴̯͌l̶̟̅d̸̯̎</summary>
+      <ul>
+        <li>
+          <details close>
+            <summary>skills</summary>
+            <ul>
+              <li>very proficient in <code>solidity</code></li>
+              <li>[fairly] proficient in <code>rust</code></li>
+              <li>learning javascript / typescript</li>
+              <li>deep knoweldge of protocol design and defi</li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+      
+      
+      <ul>
+        <li>
+          <details close>
+            <summary>projects + experience + interests</summary>
+            <ul>
+              <li>solidity engineer at <code><a href="https://alongside.finance">alongside</a></code></li>
+              <li>currently building <code><a href="https://twitter.com/withshard">shard</a></code>, a virtual world protocol</li>
+              <li>developed core smart contracts for <code><a href="https://twitter.com/kodexapp">kodex</a></code>, an ENS marketplace protocol</li>
+              <li>actively interested and building upon MEV and Flashbots</li>
+              
+            </ul>
+          </details>
+        </li>
+      </ul>
+      
+      <ul>
+        <li>
+          <details close>
+            <summary>iNfOrMaTiOn</summary>
+            <ul>
+              <li>location: everywhere</li>
+              <li>i am ᶜᵒⁿˢᶜⁱᵒᵘˢ currently [or am i]</li>
+              <li>established 3011</li>
+              <li>eats snacks at 3:30 PM</li>
+              
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <br>
+  <li>© virtual 2021 to forever. site is still a lil unfinished</li>
+  <br>
+  <button onclick="random_bg_color()">change perception</button>
+</ul>
+  </div>
+</div>
     <script>
       function random_bg_color() {
           var x = Math.floor(Math.random() * 256);
@@ -71,5 +103,6 @@
 	  document.onclick = (x) => agent.animate()
       });
     </script>
-  </body>
+</body>
+
 </html>
